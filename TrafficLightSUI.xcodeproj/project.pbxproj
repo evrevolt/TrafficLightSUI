@@ -11,6 +11,7 @@
 		546DE243291BE04F008DF1D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546DE242291BE04F008DF1D7 /* ContentView.swift */; };
 		546DE245291BE050008DF1D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546DE244291BE050008DF1D7 /* Assets.xcassets */; };
 		546DE248291BE050008DF1D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546DE247291BE050008DF1D7 /* Preview Assets.xcassets */; };
+		54D30B4F291CD9100031B78E /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D30B4E291CD9100031B78E /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		546DE242291BE04F008DF1D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		546DE244291BE050008DF1D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		546DE247291BE050008DF1D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54D30B4E291CD9100031B78E /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				546DE240291BE04F008DF1D7 /* TrafficLightSUIApp.swift */,
 				546DE242291BE04F008DF1D7 /* ContentView.swift */,
+				54D30B4E291CD9100031B78E /* CircleView.swift */,
 				546DE244291BE050008DF1D7 /* Assets.xcassets */,
 				546DE246291BE050008DF1D7 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D30B4F291CD9100031B78E /* CircleView.swift in Sources */,
 				546DE243291BE04F008DF1D7 /* ContentView.swift in Sources */,
 				546DE241291BE04F008DF1D7 /* TrafficLightSUIApp.swift in Sources */,
 			);
@@ -273,8 +277,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,8 +305,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
